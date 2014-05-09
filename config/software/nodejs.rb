@@ -16,14 +16,14 @@
 #
 
 name "nodejs"
-version "0.10.5"
+version "0.10.28"
 
 dependency "curl"
 
-source :url => 'http://nodejs.org/dist/v0.10.5/node-v0.10.5.tar.gz',
-       :md5 => 'f6b1c363f75185d57c8486cd63c42e14'
+source :url => 'http://nodejs.org/dist/v0.10.28/node-v0.10.28.tar.gz',
+       :sha1 => 'ef08a75f6359a16e672cae684e0804ca7f4554b7'
 
-relative_path "node-v0.10.5"
+relative_path "node-v0.10.28"
 
 env = {
   "CFLAGS" => "-L#{install_dir}/embedded/lib -I#{install_dir}/embedded/include",
