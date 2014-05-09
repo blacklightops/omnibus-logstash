@@ -16,12 +16,12 @@
 #
 
 name "logstash"
-version "1.1.10"
+version "1.4.1"
 
 dependency "jre"
 
-source :url => "https://logstash.objects.dreamhost.com/release/logstash-#{version}-flatjar.jar",
-       :md5 => "0177b73539a22b42f95611393cb566b1"
+source :url => "https://download.elasticsearch.org/logstash/logstash/logstash-1.4.1.tar.gz",
+       :sha1 => "834599d28ce50012c221ece7a6783c5943221e36"
 
 relative_path "logstash"
 
