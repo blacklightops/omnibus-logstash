@@ -16,7 +16,7 @@
 #
 
 name "jruby"
-version "1.7.3"
+version "1.7.12"
 
 #dependency "ruby"
 #dependency "rubygems"
@@ -24,11 +24,11 @@ version "1.7.3"
 dependency "rsync"
 dependency "jre"
 
-source :url => "http://jruby.org.s3.amazonaws.com/downloads/1.7.3/jruby-bin-1.7.3.tar.gz",
-       :md5 => "f0adf8ccee6f6777f7ab8e5e1d7a1f47"
+source :url => "http://jruby.org.s3.amazonaws.com/downloads/1.7.12/jruby-src-1.7.12.tar.gz",
+       :md5 => "f5747fa98713fd90e2416b9612fa3aeb"
 
 
-relative_path "jruby-1.7.3"
+relative_path "jruby-1.7.12"
 
 
 
