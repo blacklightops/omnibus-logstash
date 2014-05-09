@@ -16,7 +16,7 @@
 #
 
 name "logstash-src"
-version "v1.1.13"
+version "v1.4.1"
 
 dependency "jre"
 #dependency "jruby"
