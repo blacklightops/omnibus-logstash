@@ -16,7 +16,7 @@
 #
 
 name "kibana3"
-version "HEAD"
+version "a50a913f2368c8613dbff91eab30c399c0ad4838"
 dependency "rsync"
 dependency "nginx"
 dependency "kibana"
