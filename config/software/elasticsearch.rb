@@ -16,16 +16,16 @@
 #
 
 name "elasticsearch"
-version "0.90.0"
+version "1.1.1"
 
 dependency "jre"
 dependency "rsync"
 
 
-source :url => "https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.0.tar.gz",
-       :md5 => "a9656afbde7c2c516cab0588bb9c1f03"
+source :url => "https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.1.1.tar.gz",
+       :sha1 => "8495b928984945728635f805f6e2e7183902a3ea"
 
-relative_path "elasticsearch-0.90.0"
+relative_path "elasticsearch-1.1.1"
 
 env = {
   "JAVA_HOME" => "#{install_dir}/embedded/jre"
